@@ -1,1 +1,1 @@
-# MaindGames
+# MindGames
