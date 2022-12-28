@@ -1,6 +1,7 @@
 import readLineSync from 'readline-sync';
 
 let userName;
+const totalNumberOfQuestions = 3;
 
 function greeting() {
   console.log('Welcome to the Brain Games!');
@@ -40,7 +41,6 @@ function getsTheReverseAnswer(answer) {
 }
 
 export default function brainEven() {
-  const totalNumberOfQuestions = 3;
   greeting();
   for (let currentQuestionNumber = 1;
     currentQuestionNumber <= totalNumberOfQuestions;
