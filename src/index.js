@@ -20,12 +20,12 @@ const runGame = (description, gameQuestionAndAnswer) => {
     const playerAnswer = readLineSync.question(`Question: ${question}\nYour answer: `);
     if (playerAnswer === correctAnswer) {
       if (numberOfQuestion === totalNumberOfQuestions) {
-        console.log(`Correct!\nCongladurations, ${userName}!`);
+        console.log(`Correct!\nCongratulations, ${userName}!`);
       } else {
         console.log('Correct!');
       }
     } else {
-      console.log(`"${playerAnswer}" is a wrong answer. Correct answer is "${correctAnswer}".\nLet's try again, ${userName}!`);
+      console.log(`"${playerAnswer}" is a wrong answer. Correct answer was "${correctAnswer}".\nLet's try again, ${userName}!`);
       break;
     }
   }
