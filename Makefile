@@ -10,6 +10,8 @@ brain-gcd:
 			node /brain-gcd.js
 brain-progression:
 		npm node /brain-progression.js
+brain-prime:
+		npm node /brain-prime.js
 publish:
 		npm publish --dry-run
 lint:
