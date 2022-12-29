@@ -3,7 +3,9 @@ install:
 brain-games:
 		node /brain-games.js
 brain-even:
-		node /brain-even.js		
+		node /brain-even.js
+brain-calc:
+		node /brain-calc.js
 publish:
 		npm publish --dry-run
 lint:

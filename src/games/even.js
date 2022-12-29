@@ -1,9 +1,4 @@
-import runGame from '../index.js';
-
-function randomInteger(min, max) {
-  const rand = min + Math.random() * (max + 1 - min);
-  return Math.floor(rand);
-}
+import runGame, { randomInteger } from '../index.js';
 
 const description = 'Answer "yes" if the number is even, otherwise answer "no".';
 
